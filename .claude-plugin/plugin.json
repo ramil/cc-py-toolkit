@@ -1,0 +1,25 @@
+{
+  "name": "cc-py-toolkit",
+  "version": "2.0.0",
+  "description": "AI-enhanced SAP HCM Payroll implementation toolkit, battle-tested to 100% validation across 50 companies in 20 industries with 7 approach combinations. Document-driven pipeline with approach-driven architecture: questionnaire captures 5 implementation toggles (Time Management, Benefits, OM Scope, Go-Live Timing, Concurrent Employment) that cascade through funcspec, config workbook, and migration file. Includes deterministic gen_helpers.py generation library encoding all 51 validated error fixes. Produces 21-tab config workbooks and 18-23 sheet migration files with full BSI geocode mapping. Iterative testing framework included: 50-company test harness, v3 validator (44+ checks), wave runner, and error registry.",
+  "author": {
+    "name": "Ramil Segarra"
+  },
+  "keywords": [
+    "SAP",
+    "payroll",
+    "HCM",
+    "implementation",
+    "configuration",
+    "US payroll",
+    "ECC",
+    "BSI TaxFactory",
+    "questionnaire",
+    "functional spec",
+    "migration",
+    "config workbook",
+    "LSMW",
+    "wage types",
+    "geocodes"
+  ]
+}

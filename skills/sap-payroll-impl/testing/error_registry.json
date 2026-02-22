@@ -1,0 +1,3415 @@
+{
+  "version": "1.0.0",
+  "description": "Cumulative error registry tracking all unique failures across iterative battery testing",
+  "waves": [
+    {
+      "wave": 1,
+      "runs": "1-10",
+      "timestamp": "2026-02-22T01:31:38.420265",
+      "count": 10,
+      "avg_score": 73.6,
+      "perfect": 0,
+      "above_95": 0,
+      "above_90": 0,
+      "below_90": 10,
+      "min_score": 64.4,
+      "max_score": 85.7,
+      "top_failures": [
+        [
+          "CW-03g:Wage Type Catalog populated",
+          10
+        ],
+        [
+          "CW-05:Wage type completeness",
+          10
+        ],
+        [
+          "CW-09:GL accounts (HKONT) not blank",
+          10
+        ],
+        [
+          "MF-05:Benefits infotypes",
+          10
+        ],
+        [
+          "MF-14:Data Quality Review sheet",
+          10
+        ],
+        [
+          "CW-02:Sheet count >= 15",
+          7
+        ],
+        [
+          "CW-03k:Absence/Quota exists",
+          7
+        ],
+        [
+          "MF-06a:IT0194 Garnishment",
+          6
+        ],
+        [
+          "CW-03f:Work Schedule exists",
+          4
+        ],
+        [
+          "CW-03h:Processing/Eval Classes exists",
+          4
+        ]
+      ],
+      "results": [
+        {
+          "run": 1,
+          "code": "MHS",
+          "name": "MountainView Health System",
+          "industry": "Healthcare",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 81.8,
+          "passed": 36,
+          "total": 44,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03e:Payroll Calendar populated",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-05:Wage type completeness",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-05:Benefits infotypes",
+            "MF-06a:IT0194 Garnishment",
+            "MF-06b:IT0559 YTD",
+            "MF-14:Data Quality Review sheet"
+          ]
+        },
+        {
+          "run": 2,
+          "code": "PCH",
+          "name": "Pacific Coast Hospital Group",
+          "industry": "Healthcare",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 78.7,
+          "passed": 37,
+          "total": 47,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03e:Payroll Calendar populated",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-05:Wage type completeness",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-05:Benefits infotypes",
+            "MF-06a:IT0194 Garnishment",
+            "MF-06b:IT0559 YTD",
+            "MF-14:Data Quality Review sheet",
+            "MF-17:Union employee present",
+            "MF-22:IT0027 Cost Dist (if concurrent_employment)"
+          ]
+        },
+        {
+          "run": 3,
+          "code": "SMC",
+          "name": "Southern Medical Centers Inc",
+          "industry": "Healthcare",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 85.7,
+          "passed": 36,
+          "total": 42,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03e:Payroll Calendar populated",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-05:Wage type completeness",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-05:Benefits infotypes",
+            "MF-14:Data Quality Review sheet"
+          ]
+        },
+        {
+          "run": 4,
+          "code": "NXW",
+          "name": "NexaWave Technologies",
+          "industry": "Technology",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 75.0,
+          "passed": 33,
+          "total": 44,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-02:Sheet count >= 15",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-03k:Absence/Quota exists",
+            "CW-03n:Benefits exists",
+            "CW-05:Wage type completeness",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-05:Benefits infotypes",
+            "MF-06a:IT0194 Garnishment",
+            "MF-07:Employee count >= 10",
+            "MF-14:Data Quality Review sheet",
+            "MF-15:Cover/Summary sheet"
+          ]
+        },
+        {
+          "run": 5,
+          "code": "CLD",
+          "name": "CloudPeak Software",
+          "industry": "Technology",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 73.8,
+          "passed": 31,
+          "total": 42,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-02:Sheet count >= 15",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-03k:Absence/Quota exists",
+            "CW-03n:Benefits exists",
+            "CW-05:Wage type completeness",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-05:Benefits infotypes",
+            "MF-07:Employee count >= 10",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-14:Data Quality Review sheet",
+            "MF-15:Cover/Summary sheet"
+          ]
+        },
+        {
+          "run": 6,
+          "code": "QBT",
+          "name": "QuantumBit AI Labs",
+          "industry": "Technology",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 74.4,
+          "passed": 32,
+          "total": 43,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-02:Sheet count >= 15",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-03k:Absence/Quota exists",
+            "CW-03n:Benefits exists",
+            "CW-05:Wage type completeness",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-05:Benefits infotypes",
+            "MF-07:Employee count >= 10",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-14:Data Quality Review sheet",
+            "MF-15:Cover/Summary sheet"
+          ]
+        },
+        {
+          "run": 7,
+          "code": "STE",
+          "name": "SteelForge Industries",
+          "industry": "Manufacturing",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 67.4,
+          "passed": 31,
+          "total": 46,
+          "status": "FAIL",
+          "fails": [
+            "CW-02:Sheet count >= 15",
+            "CW-03f:Work Schedule exists",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "CW-05:Wage type completeness",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-03:Core infotypes present",
+            "MF-05:Benefits infotypes",
+            "MF-06a:IT0194 Garnishment",
+            "MF-14:Data Quality Review sheet",
+            "MF-17:Union employee present",
+            "MF-19:IT0003 Payroll Status exists"
+          ]
+        },
+        {
+          "run": 8,
+          "code": "APM",
+          "name": "Apex Precision Manufacturing",
+          "industry": "Manufacturing",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 64.4,
+          "passed": 29,
+          "total": 45,
+          "status": "FAIL",
+          "fails": [
+            "CW-02:Sheet count >= 15",
+            "CW-03f:Work Schedule exists",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "CW-05:Wage type completeness",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-02:Sheet count >= 15",
+            "MF-03:Core infotypes present",
+            "MF-05:Benefits infotypes",
+            "MF-06a:IT0194 Garnishment",
+            "MF-14:Data Quality Review sheet",
+            "MF-17:Union employee present",
+            "MF-19:IT0003 Payroll Status exists"
+          ]
+        },
+        {
+          "run": 9,
+          "code": "GRN",
+          "name": "GreenTech Solar Manufacturing",
+          "industry": "Manufacturing",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 66.7,
+          "passed": 28,
+          "total": 42,
+          "status": "FAIL",
+          "fails": [
+            "CW-02:Sheet count >= 15",
+            "CW-03f:Work Schedule exists",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "CW-05:Wage type completeness",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-02:Sheet count >= 15",
+            "MF-03:Core infotypes present",
+            "MF-05:Benefits infotypes",
+            "MF-14:Data Quality Review sheet",
+            "MF-19:IT0003 Payroll Status exists"
+          ]
+        },
+        {
+          "run": 10,
+          "code": "FPG",
+          "name": "FirstPrime Financial Group",
+          "industry": "Financial Services",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 68.2,
+          "passed": 30,
+          "total": 44,
+          "status": "FAIL",
+          "fails": [
+            "CW-02:Sheet count >= 15",
+            "CW-03f:Work Schedule exists",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "CW-05:Wage type completeness",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-03:Core infotypes present",
+            "MF-05:Benefits infotypes",
+            "MF-06a:IT0194 Garnishment",
+            "MF-14:Data Quality Review sheet",
+            "MF-19:IT0003 Payroll Status exists"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "runs": "11-20",
+      "timestamp": "2026-02-22T01:40:48.092907",
+      "count": 10,
+      "avg_score": 82.5,
+      "perfect": 0,
+      "above_95": 2,
+      "above_90": 4,
+      "below_90": 6,
+      "min_score": 73.3,
+      "max_score": 97.6,
+      "top_failures": [
+        [
+          "CW-09:GL accounts (HKONT) not blank",
+          10
+        ],
+        [
+          "CW-04:All PSAs in Enterprise",
+          6
+        ],
+        [
+          "CW-06:SAP field names present",
+          6
+        ],
+        [
+          "MF-03:Core infotypes present",
+          6
+        ],
+        [
+          "MF-08:No bad geocodes in TXJCD",
+          6
+        ],
+        [
+          "MF-09:Federal geocode 00-000-0000",
+          6
+        ],
+        [
+          "MF-11:IT0014 sufficient deductions",
+          6
+        ],
+        [
+          "MF-20:IT0041 Date Specs >= 2/employee",
+          6
+        ],
+        [
+          "MF-06a:IT0194 Garnishment",
+          3
+        ],
+        [
+          "CW-10:Tax rates populated",
+          3
+        ]
+      ],
+      "results": [
+        {
+          "run": 11,
+          "code": "MWB",
+          "name": "MidWest Bancorp",
+          "industry": "Financial Services",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 95.3,
+          "passed": 41,
+          "total": 43,
+          "status": "PASS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-06a:IT0194 Garnishment"
+          ]
+        },
+        {
+          "run": 12,
+          "code": "SVB",
+          "name": "SilverVault Insurance",
+          "industry": "Financial Services",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 97.6,
+          "passed": 41,
+          "total": 42,
+          "status": "PASS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank"
+          ]
+        },
+        {
+          "run": 13,
+          "code": "URB",
+          "name": "UrbanMart Retail Corp",
+          "industry": "Retail",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 93.2,
+          "passed": 41,
+          "total": 44,
+          "status": "PASS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-06a:IT0194 Garnishment",
+            "MF-06b:IT0559 YTD"
+          ]
+        },
+        {
+          "run": 14,
+          "code": "FRV",
+          "name": "FreshValue Grocers",
+          "industry": "Retail",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 93.3,
+          "passed": 42,
+          "total": 45,
+          "status": "PASS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-06a:IT0194 Garnishment",
+            "MF-17:Union employee present"
+          ]
+        },
+        {
+          "run": 15,
+          "code": "LXF",
+          "name": "LuxeFit Athleisure",
+          "industry": "Retail",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 74.4,
+          "passed": 32,
+          "total": 43,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-04:All PSAs in Enterprise",
+            "CW-06:SAP field names present",
+            "CW-09:GL accounts (HKONT) not blank",
+            "CW-10:Tax rates populated",
+            "MF-03:Core infotypes present",
+            "MF-08:No bad geocodes in TXJCD",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 16,
+          "code": "PWG",
+          "name": "PowerGrid Energy Corp",
+          "industry": "Energy",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 73.9,
+          "passed": 34,
+          "total": 46,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-04:All PSAs in Enterprise",
+            "CW-05:Wage type completeness",
+            "CW-06:SAP field names present",
+            "CW-09:GL accounts (HKONT) not blank",
+            "CW-10:Tax rates populated",
+            "MF-03:Core infotypes present",
+            "MF-08:No bad geocodes in TXJCD",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 17,
+          "code": "SWE",
+          "name": "SunWest Electric Coop",
+          "industry": "Energy",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 75.0,
+          "passed": 33,
+          "total": 44,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-04:All PSAs in Enterprise",
+            "CW-06:SAP field names present",
+            "CW-09:GL accounts (HKONT) not blank",
+            "CW-10:Tax rates populated",
+            "MF-03:Core infotypes present",
+            "MF-08:No bad geocodes in TXJCD",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 18,
+          "code": "OFP",
+          "name": "Offshore Petro Services",
+          "industry": "Energy",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 75.0,
+          "passed": 33,
+          "total": 44,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-04:All PSAs in Enterprise",
+            "CW-06:SAP field names present",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-03:Core infotypes present",
+            "MF-06c:IT2006 Absence Quotas",
+            "MF-08:No bad geocodes in TXJCD",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-13:All states represented",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 19,
+          "code": "TRC",
+          "name": "Titan Roads & Construction",
+          "industry": "Construction",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 73.3,
+          "passed": 33,
+          "total": 45,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-04:All PSAs in Enterprise",
+            "CW-06:SAP field names present",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-03:Core infotypes present",
+            "MF-06c:IT2006 Absence Quotas",
+            "MF-08:No bad geocodes in TXJCD",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-13:All states represented",
+            "MF-17:Union employee present",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 20,
+          "code": "ARC",
+          "name": "Archstone Builders Group",
+          "industry": "Construction",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 74.4,
+          "passed": 32,
+          "total": 43,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-03b:PSA Groupings populated",
+            "CW-04:All PSAs in Enterprise",
+            "CW-06:SAP field names present",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-03:Core infotypes present",
+            "MF-06c:IT2006 Absence Quotas",
+            "MF-08:No bad geocodes in TXJCD",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 3,
+      "runs": "21-30",
+      "timestamp": "2026-02-22T01:48:46.269437",
+      "count": 10,
+      "avg_score": 85.2,
+      "perfect": 0,
+      "above_95": 0,
+      "above_90": 4,
+      "below_90": 6,
+      "min_score": 73.2,
+      "max_score": 91.3,
+      "top_failures": [
+        [
+          "MF-18:All PAs in IT0001",
+          10
+        ],
+        [
+          "MF-10:IT0210 >= 2 rows/employee",
+          7
+        ],
+        [
+          "MF-20:IT0041 Date Specs >= 2/employee",
+          7
+        ],
+        [
+          "CW-03d:Payroll Areas exists",
+          6
+        ],
+        [
+          "MF-03:Core infotypes present",
+          6
+        ],
+        [
+          "CW-07:Union config present",
+          4
+        ],
+        [
+          "CW-04:All PSAs in Enterprise",
+          3
+        ],
+        [
+          "MF-06c:IT2006 Absence Quotas",
+          3
+        ],
+        [
+          "MF-09:Federal geocode 00-000-0000",
+          3
+        ],
+        [
+          "MF-11:IT0014 sufficient deductions",
+          3
+        ]
+      ],
+      "results": [
+        {
+          "run": 21,
+          "code": "NWP",
+          "name": "Northwest Plumbing & HVAC",
+          "industry": "Construction",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 90.9,
+          "passed": 40,
+          "total": 44,
+          "status": "PASS",
+          "fails": [
+            "CW-07:Union config present",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 22,
+          "code": "NTL",
+          "name": "National TransLogistics",
+          "industry": "Transportation",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 91.3,
+          "passed": 42,
+          "total": 46,
+          "status": "PASS",
+          "fails": [
+            "CW-07:Union config present",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 23,
+          "code": "JFL",
+          "name": "JetFreight Logistics",
+          "industry": "Transportation",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 91.1,
+          "passed": 41,
+          "total": 45,
+          "status": "PASS",
+          "fails": [
+            "CW-07:Union config present",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 24,
+          "code": "HBR",
+          "name": "Harbor Marine Shipping",
+          "industry": "Transportation",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 90.9,
+          "passed": 40,
+          "total": 44,
+          "status": "PASS",
+          "fails": [
+            "CW-07:Union config present",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 25,
+          "code": "STU",
+          "name": "Summit University System",
+          "industry": "Education",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 80.4,
+          "passed": 37,
+          "total": 46,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03d:Payroll Areas exists",
+            "CW-04:All PSAs in Enterprise",
+            "MF-03:Core infotypes present",
+            "MF-06c:IT2006 Absence Quotas",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 26,
+          "code": "KAS",
+          "name": "KidStart Academy Schools",
+          "industry": "Education",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 73.2,
+          "passed": 30,
+          "total": 41,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03b:PSA Groupings populated",
+            "CW-03d:Payroll Areas exists",
+            "CW-03h:Processing/Eval Classes populated",
+            "CW-04:All PSAs in Enterprise",
+            "MF-03:Core infotypes present",
+            "MF-06c:IT2006 Absence Quotas",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 27,
+          "code": "OLU",
+          "name": "OnlineU EdTech Corp",
+          "industry": "Education",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 73.2,
+          "passed": 30,
+          "total": 41,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03b:PSA Groupings populated",
+            "CW-03d:Payroll Areas exists",
+            "CW-03h:Processing/Eval Classes populated",
+            "CW-04:All PSAs in Enterprise",
+            "MF-03:Core infotypes present",
+            "MF-06c:IT2006 Absence Quotas",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 28,
+          "code": "GHR",
+          "name": "GrandHorizon Resorts",
+          "industry": "Hospitality",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 86.7,
+          "passed": 39,
+          "total": 45,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03d:Payroll Areas exists",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-03:Core infotypes present",
+            "MF-13:All states represented",
+            "MF-17:Union employee present",
+            "MF-18:All PAs in IT0001"
+          ]
+        },
+        {
+          "run": 29,
+          "code": "BFC",
+          "name": "BlueFin Cruise Lines",
+          "industry": "Hospitality",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 86.4,
+          "passed": 38,
+          "total": 44,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03d:Payroll Areas exists",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-03:Core infotypes present",
+            "MF-13:All states represented",
+            "MF-17:Union employee present",
+            "MF-18:All PAs in IT0001"
+          ]
+        },
+        {
+          "run": 30,
+          "code": "FSQ",
+          "name": "FarmSquare Restaurant Group",
+          "industry": "Hospitality",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 87.8,
+          "passed": 36,
+          "total": 41,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03d:Payroll Areas exists",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-03:Core infotypes present",
+            "MF-13:All states represented",
+            "MF-18:All PAs in IT0001"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 4,
+      "runs": "31-40",
+      "timestamp": "2026-02-22T01:55:14.267115",
+      "count": 10,
+      "avg_score": 67.7,
+      "perfect": 0,
+      "above_95": 0,
+      "above_90": 0,
+      "below_90": 10,
+      "min_score": 63.4,
+      "max_score": 73.3,
+      "top_failures": [
+        [
+          "CW-03b:PSA Groupings exists",
+          10
+        ],
+        [
+          "CW-03c:Feature Config exists",
+          10
+        ],
+        [
+          "CW-03f:Work Schedule exists",
+          10
+        ],
+        [
+          "CW-03h:Processing/Eval Classes exists",
+          10
+        ],
+        [
+          "CW-03i:WT Permissibility exists",
+          10
+        ],
+        [
+          "CW-03k:Absence/Quota exists",
+          10
+        ],
+        [
+          "CW-03m:House Bank exists",
+          10
+        ],
+        [
+          "MF-03:Core infotypes present",
+          10
+        ],
+        [
+          "MF-18:All PAs in IT0001",
+          10
+        ],
+        [
+          "CW-03a:Enterprise Structure populated",
+          8
+        ]
+      ],
+      "results": [
+        {
+          "run": 31,
+          "code": "CIT",
+          "name": "City of Springfield Municipal",
+          "industry": "Government",
+          "benefits_approach": "deductions_only",
+          "time_approach": "negative",
+          "score": 67.4,
+          "passed": 31,
+          "total": 46,
+          "status": "FAIL",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-03b:PSA Groupings exists",
+            "CW-03c:Feature Config exists",
+            "CW-03d:Payroll Areas exists",
+            "CW-03e:Payroll Calendar exists",
+            "CW-03f:Work Schedule exists",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "CW-08:No empty data tabs",
+            "MF-03:Core infotypes present",
+            "MF-17:Union employee present",
+            "MF-18:All PAs in IT0001",
+            "MF-23:IT0007 ZTEFN=9 (if time_approach!='full')"
+          ]
+        },
+        {
+          "run": 32,
+          "code": "STA",
+          "name": "State Transportation Authority",
+          "industry": "Government",
+          "benefits_approach": "deductions_only",
+          "time_approach": "third_party",
+          "score": 67.4,
+          "passed": 31,
+          "total": 46,
+          "status": "FAIL",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-03b:PSA Groupings exists",
+            "CW-03c:Feature Config exists",
+            "CW-03d:Payroll Areas exists",
+            "CW-03e:Payroll Calendar exists",
+            "CW-03f:Work Schedule exists",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "CW-08:No empty data tabs",
+            "MF-03:Core infotypes present",
+            "MF-17:Union employee present",
+            "MF-18:All PAs in IT0001",
+            "MF-23:IT0007 ZTEFN=9 (if time_approach!='full')"
+          ]
+        },
+        {
+          "run": 33,
+          "code": "HUM",
+          "name": "Humanity Works Foundation",
+          "industry": "Non-Profit",
+          "benefits_approach": "hybrid",
+          "time_approach": "full",
+          "score": 66.7,
+          "passed": 28,
+          "total": 42,
+          "status": "FAIL",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-03b:PSA Groupings exists",
+            "CW-03c:Feature Config exists",
+            "CW-03d:Payroll Areas exists",
+            "CW-03e:Payroll Calendar exists",
+            "CW-03f:Work Schedule exists",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "CW-08:No empty data tabs",
+            "MF-03:Core infotypes present",
+            "MF-05:Benefits infotypes",
+            "MF-18:All PAs in IT0001"
+          ]
+        },
+        {
+          "run": 34,
+          "code": "CHD",
+          "name": "ChildrenFirst Advocacy Alliance",
+          "industry": "Non-Profit",
+          "benefits_approach": "deductions_only",
+          "time_approach": "full",
+          "score": 69.0,
+          "passed": 29,
+          "total": 42,
+          "status": "FAIL",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-03b:PSA Groupings exists",
+            "CW-03c:Feature Config exists",
+            "CW-03d:Payroll Areas exists",
+            "CW-03e:Payroll Calendar exists",
+            "CW-03f:Work Schedule exists",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "CW-08:No empty data tabs",
+            "MF-03:Core infotypes present",
+            "MF-18:All PAs in IT0001"
+          ]
+        },
+        {
+          "run": 35,
+          "code": "BML",
+          "name": "BioMed Labs Inc",
+          "industry": "Pharma/Life Sciences",
+          "benefits_approach": "full",
+          "time_approach": "third_party",
+          "score": 63.6,
+          "passed": 28,
+          "total": 44,
+          "status": "FAIL",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-03b:PSA Groupings exists",
+            "CW-03c:Feature Config exists",
+            "CW-03e:Payroll Calendar populated",
+            "CW-03f:Work Schedule exists",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03j:Tax Authorities populated",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "MF-02:Sheet count >= 15",
+            "MF-03:Core infotypes present",
+            "MF-04:Tax infotypes present",
+            "MF-05:Benefits infotypes",
+            "MF-18:All PAs in IT0001",
+            "MF-23:IT0007 ZTEFN=9 (if time_approach!='full')"
+          ]
+        },
+        {
+          "run": 36,
+          "code": "GNX",
+          "name": "GenexCorp Therapeutics",
+          "industry": "Pharma/Life Sciences",
+          "benefits_approach": "hybrid",
+          "time_approach": "full",
+          "score": 63.4,
+          "passed": 26,
+          "total": 41,
+          "status": "FAIL",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-03b:PSA Groupings exists",
+            "CW-03c:Feature Config exists",
+            "CW-03e:Payroll Calendar populated",
+            "CW-03f:Work Schedule exists",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03j:Tax Authorities populated",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "MF-02:Sheet count >= 15",
+            "MF-03:Core infotypes present",
+            "MF-04:Tax infotypes present",
+            "MF-05:Benefits infotypes",
+            "MF-18:All PAs in IT0001"
+          ]
+        },
+        {
+          "run": 37,
+          "code": "KRT",
+          "name": "KeyRent Property Management",
+          "industry": "Real Estate",
+          "benefits_approach": "deductions_only",
+          "time_approach": "full",
+          "score": 66.7,
+          "passed": 28,
+          "total": 42,
+          "status": "FAIL",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-03b:PSA Groupings exists",
+            "CW-03c:Feature Config exists",
+            "CW-03e:Payroll Calendar populated",
+            "CW-03f:Work Schedule exists",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03j:Tax Authorities populated",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "MF-02:Sheet count >= 15",
+            "MF-03:Core infotypes present",
+            "MF-04:Tax infotypes present",
+            "MF-18:All PAs in IT0001"
+          ]
+        },
+        {
+          "run": 38,
+          "code": "STR",
+          "name": "Sterling Towers Development",
+          "industry": "Real Estate",
+          "benefits_approach": "deductions_only",
+          "time_approach": "negative",
+          "score": 73.3,
+          "passed": 33,
+          "total": 45,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03b:PSA Groupings exists",
+            "CW-03c:Feature Config exists",
+            "CW-03e:Payroll Calendar exists",
+            "CW-03f:Work Schedule exists",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "MF-03:Core infotypes present",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-17:Union employee present",
+            "MF-18:All PAs in IT0001"
+          ]
+        },
+        {
+          "run": 39,
+          "code": "GRW",
+          "name": "GreenAcres Farming Co",
+          "industry": "Agriculture",
+          "benefits_approach": "deductions_only",
+          "time_approach": "third_party",
+          "score": 71.4,
+          "passed": 30,
+          "total": 42,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-03b:PSA Groupings exists",
+            "CW-03c:Feature Config exists",
+            "CW-03e:Payroll Calendar exists",
+            "CW-03f:Work Schedule exists",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "CW-08:No empty data tabs",
+            "MF-03:Core infotypes present",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-18:All PAs in IT0001"
+          ]
+        },
+        {
+          "run": 40,
+          "code": "DAR",
+          "name": "Dairy Alliance Resources",
+          "industry": "Agriculture",
+          "benefits_approach": "deductions_only",
+          "time_approach": "negative",
+          "score": 68.2,
+          "passed": 30,
+          "total": 44,
+          "status": "FAIL",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-03b:PSA Groupings exists",
+            "CW-03c:Feature Config exists",
+            "CW-03e:Payroll Calendar exists",
+            "CW-03f:Work Schedule exists",
+            "CW-03h:Processing/Eval Classes exists",
+            "CW-03i:WT Permissibility exists",
+            "CW-03k:Absence/Quota exists",
+            "CW-03m:House Bank exists",
+            "CW-08:No empty data tabs",
+            "MF-03:Core infotypes present",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-17:Union employee present",
+            "MF-18:All PAs in IT0001"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 5,
+      "runs": "41-50",
+      "timestamp": "2026-02-22T02:06:30.811338",
+      "count": 10,
+      "avg_score": 83.4,
+      "perfect": 0,
+      "above_95": 1,
+      "above_90": 6,
+      "below_90": 4,
+      "min_score": 60.9,
+      "max_score": 95.3,
+      "top_failures": [
+        [
+          "CW-09:GL accounts (HKONT) not blank",
+          10
+        ],
+        [
+          "MF-06b:IT0559 YTD",
+          5
+        ],
+        [
+          "MF-23:IT0007 ZTEFN=9 (if time_approach!='full')",
+          5
+        ],
+        [
+          "MF-06a:IT0194 Garnishment",
+          5
+        ],
+        [
+          "CW-03a:Enterprise Structure populated",
+          4
+        ],
+        [
+          "MF-17:Union employee present",
+          3
+        ],
+        [
+          "CW-03b:PSA Groupings populated",
+          3
+        ],
+        [
+          "CW-03c:Feature Config populated",
+          3
+        ],
+        [
+          "CW-03e:Payroll Calendar populated",
+          3
+        ],
+        [
+          "CW-03f:Work Schedule populated",
+          3
+        ]
+      ],
+      "results": [
+        {
+          "run": 41,
+          "code": "FLX",
+          "name": "FlexStream Media Productions",
+          "industry": "Media/Entertainment",
+          "benefits_approach": "full",
+          "time_approach": "negative",
+          "score": 86.4,
+          "passed": 38,
+          "total": 44,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-06b:IT0559 YTD",
+            "MF-07:Employee count >= 10",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-20:IT0041 Date Specs >= 2/employee",
+            "MF-23:IT0007 ZTEFN=9 (if time_approach!='full')"
+          ]
+        },
+        {
+          "run": 42,
+          "code": "BRD",
+          "name": "Broadcast Network Alliance",
+          "industry": "Media/Entertainment",
+          "benefits_approach": "hybrid",
+          "time_approach": "full",
+          "score": 93.3,
+          "passed": 42,
+          "total": 45,
+          "status": "PASS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-06a:IT0194 Garnishment",
+            "MF-17:Union employee present"
+          ]
+        },
+        {
+          "run": 43,
+          "code": "AMR",
+          "name": "Anchor & Mitchell Law Partners",
+          "industry": "Professional Services",
+          "benefits_approach": "full",
+          "time_approach": "third_party",
+          "score": 95.3,
+          "passed": 41,
+          "total": 43,
+          "status": "PASS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-23:IT0007 ZTEFN=9 (if time_approach!='full')"
+          ]
+        },
+        {
+          "run": 44,
+          "code": "BCG",
+          "name": "Beacon Consulting Group",
+          "industry": "Professional Services",
+          "benefits_approach": "full",
+          "time_approach": "negative",
+          "score": 91.1,
+          "passed": 41,
+          "total": 45,
+          "status": "PASS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-06a:IT0194 Garnishment",
+            "MF-06b:IT0559 YTD",
+            "MF-23:IT0007 ZTEFN=9 (if time_approach!='full')"
+          ]
+        },
+        {
+          "run": 45,
+          "code": "STL",
+          "name": "StellarComm Networks",
+          "industry": "Telecommunications",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 63.0,
+          "passed": 29,
+          "total": 46,
+          "status": "FAIL",
+          "fails": [
+            "CW-03b:PSA Groupings populated",
+            "CW-03c:Feature Config populated",
+            "CW-03e:Payroll Calendar populated",
+            "CW-03f:Work Schedule populated",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-03h:Processing/Eval Classes populated",
+            "CW-03i:WT Permissibility populated",
+            "CW-03k:Absence/Quota populated",
+            "CW-03l:Symbolic Accounts populated",
+            "CW-05:Wage type completeness",
+            "CW-07:Union config present",
+            "CW-09:GL accounts (HKONT) not blank",
+            "CW-10:Tax rates populated",
+            "MF-06a:IT0194 Garnishment",
+            "MF-06b:IT0559 YTD",
+            "MF-17:Union employee present",
+            "MF-21:IT0105 Communication >= 1/employee"
+          ]
+        },
+        {
+          "run": 46,
+          "code": "PLS",
+          "name": "Pulse Wireless Solutions",
+          "industry": "Telecommunications",
+          "benefits_approach": "deductions_only",
+          "time_approach": "full",
+          "score": 66.7,
+          "passed": 28,
+          "total": 42,
+          "status": "FAIL",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-03b:PSA Groupings populated",
+            "CW-03c:Feature Config populated",
+            "CW-03e:Payroll Calendar populated",
+            "CW-03f:Work Schedule populated",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-03h:Processing/Eval Classes populated",
+            "CW-03i:WT Permissibility populated",
+            "CW-03k:Absence/Quota populated",
+            "CW-03l:Symbolic Accounts populated",
+            "CW-05:Wage type completeness",
+            "CW-09:GL accounts (HKONT) not blank",
+            "CW-10:Tax rates populated",
+            "MF-21:IT0105 Communication >= 1/employee"
+          ]
+        },
+        {
+          "run": 47,
+          "code": "ADS",
+          "name": "Apex Defense Systems",
+          "industry": "Aerospace/Defense",
+          "benefits_approach": "hybrid",
+          "time_approach": "full",
+          "score": 60.9,
+          "passed": 28,
+          "total": 46,
+          "status": "FAIL",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-03b:PSA Groupings populated",
+            "CW-03c:Feature Config populated",
+            "CW-03e:Payroll Calendar populated",
+            "CW-03f:Work Schedule populated",
+            "CW-03g:Wage Type Catalog populated",
+            "CW-03h:Processing/Eval Classes populated",
+            "CW-03i:WT Permissibility populated",
+            "CW-03k:Absence/Quota populated",
+            "CW-03l:Symbolic Accounts populated",
+            "CW-05:Wage type completeness",
+            "CW-07:Union config present",
+            "CW-09:GL accounts (HKONT) not blank",
+            "CW-10:Tax rates populated",
+            "MF-06a:IT0194 Garnishment",
+            "MF-06b:IT0559 YTD",
+            "MF-17:Union employee present",
+            "MF-21:IT0105 Communication >= 1/employee"
+          ]
+        },
+        {
+          "run": 48,
+          "code": "AVE",
+          "name": "AviationEdge Composites",
+          "industry": "Aerospace/Defense",
+          "benefits_approach": "deductions_only",
+          "time_approach": "third_party",
+          "score": 93.0,
+          "passed": 40,
+          "total": 43,
+          "status": "PASS",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-23:IT0007 ZTEFN=9 (if time_approach!='full')"
+          ]
+        },
+        {
+          "run": 49,
+          "code": "PST",
+          "name": "PastaPerfect Manufacturing",
+          "industry": "Food & Beverage",
+          "benefits_approach": "deductions_only",
+          "time_approach": "negative",
+          "score": 91.3,
+          "passed": 42,
+          "total": 46,
+          "status": "PASS",
+          "fails": [
+            "CW-03a:Enterprise Structure populated",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-06a:IT0194 Garnishment",
+            "MF-23:IT0007 ZTEFN=9 (if time_approach!='full')"
+          ]
+        },
+        {
+          "run": 50,
+          "code": "BEV",
+          "name": "BeverageBrew Innovations",
+          "industry": "Food & Beverage",
+          "benefits_approach": "hybrid",
+          "time_approach": "full",
+          "score": 93.3,
+          "passed": 42,
+          "total": 45,
+          "status": "PASS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-06b:IT0559 YTD",
+            "MF-11:IT0014 sufficient deductions"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 6,
+      "runs": "1-10",
+      "timestamp": "2026-02-22T02:22:24.328663",
+      "count": 10,
+      "avg_score": 87.0,
+      "perfect": 0,
+      "above_95": 2,
+      "above_90": 3,
+      "below_90": 7,
+      "min_score": 81.8,
+      "max_score": 95.3,
+      "top_failures": [
+        [
+          "CW-09:GL accounts (HKONT) not blank",
+          10
+        ],
+        [
+          "MF-18:All PAs in IT0001",
+          8
+        ],
+        [
+          "MF-09:Federal geocode 00-000-0000",
+          7
+        ],
+        [
+          "MF-10:IT0210 >= 2 rows/employee",
+          7
+        ],
+        [
+          "MF-11:IT0014 sufficient deductions",
+          7
+        ],
+        [
+          "MF-20:IT0041 Date Specs >= 2/employee",
+          7
+        ],
+        [
+          "CW-04:All PSAs in Enterprise",
+          5
+        ],
+        [
+          "MF-17:Union employee present",
+          3
+        ],
+        [
+          "MF-13:All states represented",
+          2
+        ],
+        [
+          "MF-22:IT0027 Cost Dist (if concurrent_employment)",
+          1
+        ]
+      ],
+      "results": [
+        {
+          "run": 1,
+          "code": "MHS",
+          "name": "MountainView Health System",
+          "industry": "Healthcare",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 86.4,
+          "passed": 38,
+          "total": 44,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 2,
+          "code": "PCH",
+          "name": "Pacific Coast Hospital Group",
+          "industry": "Healthcare",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 83.0,
+          "passed": 39,
+          "total": 47,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-17:Union employee present",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee",
+            "MF-22:IT0027 Cost Dist (if concurrent_employment)"
+          ]
+        },
+        {
+          "run": 3,
+          "code": "SMC",
+          "name": "Southern Medical Centers Inc",
+          "industry": "Healthcare",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 85.7,
+          "passed": 36,
+          "total": 42,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 4,
+          "code": "NXW",
+          "name": "NexaWave Technologies",
+          "industry": "Technology",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 84.1,
+          "passed": 37,
+          "total": 44,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-04:All PSAs in Enterprise",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 5,
+          "code": "CLD",
+          "name": "CloudPeak Software",
+          "industry": "Technology",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 95.2,
+          "passed": 40,
+          "total": 42,
+          "status": "PASS",
+          "fails": [
+            "CW-04:All PSAs in Enterprise",
+            "CW-09:GL accounts (HKONT) not blank"
+          ]
+        },
+        {
+          "run": 6,
+          "code": "QBT",
+          "name": "QuantumBit AI Labs",
+          "industry": "Technology",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 95.3,
+          "passed": 41,
+          "total": 43,
+          "status": "PASS",
+          "fails": [
+            "CW-04:All PSAs in Enterprise",
+            "CW-09:GL accounts (HKONT) not blank"
+          ]
+        },
+        {
+          "run": 7,
+          "code": "STE",
+          "name": "SteelForge Industries",
+          "industry": "Manufacturing",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 91.3,
+          "passed": 42,
+          "total": 46,
+          "status": "PASS",
+          "fails": [
+            "CW-04:All PSAs in Enterprise",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-17:Union employee present",
+            "MF-18:All PAs in IT0001"
+          ]
+        },
+        {
+          "run": 8,
+          "code": "APM",
+          "name": "Apex Precision Manufacturing",
+          "industry": "Manufacturing",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 84.4,
+          "passed": 38,
+          "total": 45,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-17:Union employee present",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 9,
+          "code": "GRN",
+          "name": "GreenTech Solar Manufacturing",
+          "industry": "Manufacturing",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 83.3,
+          "passed": 35,
+          "total": 42,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-13:All states represented",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        },
+        {
+          "run": 10,
+          "code": "FPG",
+          "name": "FirstPrime Financial Group",
+          "industry": "Financial Services",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 81.8,
+          "passed": 36,
+          "total": 44,
+          "status": "PASS WITH WARNINGS",
+          "fails": [
+            "CW-04:All PSAs in Enterprise",
+            "CW-09:GL accounts (HKONT) not blank",
+            "MF-09:Federal geocode 00-000-0000",
+            "MF-10:IT0210 >= 2 rows/employee",
+            "MF-11:IT0014 sufficient deductions",
+            "MF-13:All states represented",
+            "MF-18:All PAs in IT0001",
+            "MF-20:IT0041 Date Specs >= 2/employee"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 7,
+      "runs": "1-10",
+      "timestamp": "2026-02-22T02:31:15.794540",
+      "count": 10,
+      "avg_score": 100.0,
+      "perfect": 10,
+      "above_95": 10,
+      "above_90": 10,
+      "below_90": 0,
+      "min_score": 100.0,
+      "max_score": 100.0,
+      "top_failures": [],
+      "results": [
+        {
+          "run": 1,
+          "code": "MHS",
+          "name": "MountainView Health System",
+          "industry": "Healthcare",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 44,
+          "total": 44,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 2,
+          "code": "PCH",
+          "name": "Pacific Coast Hospital Group",
+          "industry": "Healthcare",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 47,
+          "total": 47,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 3,
+          "code": "SMC",
+          "name": "Southern Medical Centers Inc",
+          "industry": "Healthcare",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 42,
+          "total": 42,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 4,
+          "code": "NXW",
+          "name": "NexaWave Technologies",
+          "industry": "Technology",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 44,
+          "total": 44,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 5,
+          "code": "CLD",
+          "name": "CloudPeak Software",
+          "industry": "Technology",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 42,
+          "total": 42,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 6,
+          "code": "QBT",
+          "name": "QuantumBit AI Labs",
+          "industry": "Technology",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 43,
+          "total": 43,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 7,
+          "code": "STE",
+          "name": "SteelForge Industries",
+          "industry": "Manufacturing",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 46,
+          "total": 46,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 8,
+          "code": "APM",
+          "name": "Apex Precision Manufacturing",
+          "industry": "Manufacturing",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 45,
+          "total": 45,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 9,
+          "code": "GRN",
+          "name": "GreenTech Solar Manufacturing",
+          "industry": "Manufacturing",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 42,
+          "total": 42,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 10,
+          "code": "FPG",
+          "name": "FirstPrime Financial Group",
+          "industry": "Financial Services",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 44,
+          "total": 44,
+          "status": "PASS",
+          "fails": []
+        }
+      ]
+    },
+    {
+      "wave": 8,
+      "runs": "11-20",
+      "timestamp": "2026-02-22T02:31:20.907625",
+      "count": 10,
+      "avg_score": 100.0,
+      "perfect": 10,
+      "above_95": 10,
+      "above_90": 10,
+      "below_90": 0,
+      "min_score": 100.0,
+      "max_score": 100.0,
+      "top_failures": [],
+      "results": [
+        {
+          "run": 11,
+          "code": "MWB",
+          "name": "MidWest Bancorp",
+          "industry": "Financial Services",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 43,
+          "total": 43,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 12,
+          "code": "SVB",
+          "name": "SilverVault Insurance",
+          "industry": "Financial Services",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 42,
+          "total": 42,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 13,
+          "code": "URB",
+          "name": "UrbanMart Retail Corp",
+          "industry": "Retail",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 44,
+          "total": 44,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 14,
+          "code": "FRV",
+          "name": "FreshValue Grocers",
+          "industry": "Retail",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 45,
+          "total": 45,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 15,
+          "code": "LXF",
+          "name": "LuxeFit Athleisure",
+          "industry": "Retail",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 43,
+          "total": 43,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 16,
+          "code": "PWG",
+          "name": "PowerGrid Energy Corp",
+          "industry": "Energy",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 46,
+          "total": 46,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 17,
+          "code": "SWE",
+          "name": "SunWest Electric Coop",
+          "industry": "Energy",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 44,
+          "total": 44,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 18,
+          "code": "OFP",
+          "name": "Offshore Petro Services",
+          "industry": "Energy",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 44,
+          "total": 44,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 19,
+          "code": "TRC",
+          "name": "Titan Roads & Construction",
+          "industry": "Construction",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 45,
+          "total": 45,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 20,
+          "code": "ARC",
+          "name": "Archstone Builders Group",
+          "industry": "Construction",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 43,
+          "total": 43,
+          "status": "PASS",
+          "fails": []
+        }
+      ]
+    },
+    {
+      "wave": 9,
+      "runs": "21-30",
+      "timestamp": "2026-02-22T02:31:22.360412",
+      "count": 10,
+      "avg_score": 100.0,
+      "perfect": 10,
+      "above_95": 10,
+      "above_90": 10,
+      "below_90": 0,
+      "min_score": 100.0,
+      "max_score": 100.0,
+      "top_failures": [],
+      "results": [
+        {
+          "run": 21,
+          "code": "NWP",
+          "name": "Northwest Plumbing & HVAC",
+          "industry": "Construction",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 44,
+          "total": 44,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 22,
+          "code": "NTL",
+          "name": "National TransLogistics",
+          "industry": "Transportation",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 46,
+          "total": 46,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 23,
+          "code": "JFL",
+          "name": "JetFreight Logistics",
+          "industry": "Transportation",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 45,
+          "total": 45,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 24,
+          "code": "HBR",
+          "name": "Harbor Marine Shipping",
+          "industry": "Transportation",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 44,
+          "total": 44,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 25,
+          "code": "STU",
+          "name": "Summit University System",
+          "industry": "Education",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 47,
+          "total": 47,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 26,
+          "code": "KAS",
+          "name": "KidStart Academy Schools",
+          "industry": "Education",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 42,
+          "total": 42,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 27,
+          "code": "OLU",
+          "name": "OnlineU EdTech Corp",
+          "industry": "Education",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 42,
+          "total": 42,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 28,
+          "code": "GHR",
+          "name": "GrandHorizon Resorts",
+          "industry": "Hospitality",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 46,
+          "total": 46,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 29,
+          "code": "BFC",
+          "name": "BlueFin Cruise Lines",
+          "industry": "Hospitality",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 45,
+          "total": 45,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 30,
+          "code": "FSQ",
+          "name": "FarmSquare Restaurant Group",
+          "industry": "Hospitality",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 42,
+          "total": 42,
+          "status": "PASS",
+          "fails": []
+        }
+      ]
+    },
+    {
+      "wave": 10,
+      "runs": "31-40",
+      "timestamp": "2026-02-22T02:31:23.552737",
+      "count": 10,
+      "avg_score": 100.0,
+      "perfect": 10,
+      "above_95": 10,
+      "above_90": 10,
+      "below_90": 0,
+      "min_score": 100.0,
+      "max_score": 100.0,
+      "top_failures": [],
+      "results": [
+        {
+          "run": 31,
+          "code": "CIT",
+          "name": "City of Springfield Municipal",
+          "industry": "Government",
+          "benefits_approach": "deductions_only",
+          "time_approach": "negative",
+          "score": 100.0,
+          "passed": 46,
+          "total": 46,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 32,
+          "code": "STA",
+          "name": "State Transportation Authority",
+          "industry": "Government",
+          "benefits_approach": "deductions_only",
+          "time_approach": "third_party",
+          "score": 100.0,
+          "passed": 46,
+          "total": 46,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 33,
+          "code": "HUM",
+          "name": "Humanity Works Foundation",
+          "industry": "Non-Profit",
+          "benefits_approach": "hybrid",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 42,
+          "total": 42,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 34,
+          "code": "CHD",
+          "name": "ChildrenFirst Advocacy Alliance",
+          "industry": "Non-Profit",
+          "benefits_approach": "deductions_only",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 42,
+          "total": 42,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 35,
+          "code": "BML",
+          "name": "BioMed Labs Inc",
+          "industry": "Pharma/Life Sciences",
+          "benefits_approach": "full",
+          "time_approach": "third_party",
+          "score": 100.0,
+          "passed": 45,
+          "total": 45,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 36,
+          "code": "GNX",
+          "name": "GenexCorp Therapeutics",
+          "industry": "Pharma/Life Sciences",
+          "benefits_approach": "hybrid",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 42,
+          "total": 42,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 37,
+          "code": "KRT",
+          "name": "KeyRent Property Management",
+          "industry": "Real Estate",
+          "benefits_approach": "deductions_only",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 43,
+          "total": 43,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 38,
+          "code": "STR",
+          "name": "Sterling Towers Development",
+          "industry": "Real Estate",
+          "benefits_approach": "deductions_only",
+          "time_approach": "negative",
+          "score": 100.0,
+          "passed": 46,
+          "total": 46,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 39,
+          "code": "GRW",
+          "name": "GreenAcres Farming Co",
+          "industry": "Agriculture",
+          "benefits_approach": "deductions_only",
+          "time_approach": "third_party",
+          "score": 100.0,
+          "passed": 43,
+          "total": 43,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 40,
+          "code": "DAR",
+          "name": "Dairy Alliance Resources",
+          "industry": "Agriculture",
+          "benefits_approach": "deductions_only",
+          "time_approach": "negative",
+          "score": 100.0,
+          "passed": 45,
+          "total": 45,
+          "status": "PASS",
+          "fails": []
+        }
+      ]
+    },
+    {
+      "wave": 11,
+      "runs": "41-50",
+      "timestamp": "2026-02-22T02:31:25.001756",
+      "count": 10,
+      "avg_score": 100.0,
+      "perfect": 10,
+      "above_95": 10,
+      "above_90": 10,
+      "below_90": 0,
+      "min_score": 100.0,
+      "max_score": 100.0,
+      "top_failures": [],
+      "results": [
+        {
+          "run": 41,
+          "code": "FLX",
+          "name": "FlexStream Media Productions",
+          "industry": "Media/Entertainment",
+          "benefits_approach": "full",
+          "time_approach": "negative",
+          "score": 100.0,
+          "passed": 44,
+          "total": 44,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 42,
+          "code": "BRD",
+          "name": "Broadcast Network Alliance",
+          "industry": "Media/Entertainment",
+          "benefits_approach": "hybrid",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 45,
+          "total": 45,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 43,
+          "code": "AMR",
+          "name": "Anchor & Mitchell Law Partners",
+          "industry": "Professional Services",
+          "benefits_approach": "full",
+          "time_approach": "third_party",
+          "score": 100.0,
+          "passed": 43,
+          "total": 43,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 44,
+          "code": "BCG",
+          "name": "Beacon Consulting Group",
+          "industry": "Professional Services",
+          "benefits_approach": "full",
+          "time_approach": "negative",
+          "score": 100.0,
+          "passed": 45,
+          "total": 45,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 45,
+          "code": "STL",
+          "name": "StellarComm Networks",
+          "industry": "Telecommunications",
+          "benefits_approach": "full",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 46,
+          "total": 46,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 46,
+          "code": "PLS",
+          "name": "Pulse Wireless Solutions",
+          "industry": "Telecommunications",
+          "benefits_approach": "deductions_only",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 42,
+          "total": 42,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 47,
+          "code": "ADS",
+          "name": "Apex Defense Systems",
+          "industry": "Aerospace/Defense",
+          "benefits_approach": "hybrid",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 46,
+          "total": 46,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 48,
+          "code": "AVE",
+          "name": "AviationEdge Composites",
+          "industry": "Aerospace/Defense",
+          "benefits_approach": "deductions_only",
+          "time_approach": "third_party",
+          "score": 100.0,
+          "passed": 43,
+          "total": 43,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 49,
+          "code": "PST",
+          "name": "PastaPerfect Manufacturing",
+          "industry": "Food & Beverage",
+          "benefits_approach": "deductions_only",
+          "time_approach": "negative",
+          "score": 100.0,
+          "passed": 46,
+          "total": 46,
+          "status": "PASS",
+          "fails": []
+        },
+        {
+          "run": 50,
+          "code": "BEV",
+          "name": "BeverageBrew Innovations",
+          "industry": "Food & Beverage",
+          "benefits_approach": "hybrid",
+          "time_approach": "full",
+          "score": 100.0,
+          "passed": 45,
+          "total": 45,
+          "status": "PASS",
+          "fails": []
+        }
+      ]
+    }
+  ],
+  "errors": {
+    "CW-03e:Payroll Calendar populated": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 3
+        },
+        {
+          "wave": 4,
+          "count": 3
+        },
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 9,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03g:Wage Type Catalog populated": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 10
+        },
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 13,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-05:Wage type completeness": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 10
+        },
+        {
+          "wave": 2,
+          "count": 1
+        },
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 14,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-09:GL accounts (HKONT) not blank": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 10
+        },
+        {
+          "wave": 2,
+          "count": 10
+        },
+        {
+          "wave": 3,
+          "count": 3
+        },
+        {
+          "wave": 5,
+          "count": 10
+        },
+        {
+          "wave": 6,
+          "count": 10
+        }
+      ],
+      "total_count": 43,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-05:Benefits infotypes": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 10
+        },
+        {
+          "wave": 4,
+          "count": 3
+        }
+      ],
+      "total_count": 13,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-06a:IT0194 Garnishment": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 6
+        },
+        {
+          "wave": 2,
+          "count": 3
+        },
+        {
+          "wave": 5,
+          "count": 5
+        }
+      ],
+      "total_count": 14,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-06b:IT0559 YTD": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 2
+        },
+        {
+          "wave": 2,
+          "count": 1
+        },
+        {
+          "wave": 5,
+          "count": 5
+        }
+      ],
+      "total_count": 8,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-14:Data Quality Review sheet": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 10
+        }
+      ],
+      "total_count": 10,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-17:Union employee present": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 3
+        },
+        {
+          "wave": 2,
+          "count": 2
+        },
+        {
+          "wave": 3,
+          "count": 2
+        },
+        {
+          "wave": 4,
+          "count": 4
+        },
+        {
+          "wave": 5,
+          "count": 3
+        },
+        {
+          "wave": 6,
+          "count": 3
+        }
+      ],
+      "total_count": 17,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-22:IT0027 Cost Dist (if concurrent_employment)": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 1
+        },
+        {
+          "wave": 6,
+          "count": 1
+        }
+      ],
+      "total_count": 2,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-02:Sheet count >= 15": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 7
+        }
+      ],
+      "total_count": 7,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03k:Absence/Quota exists": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 7
+        },
+        {
+          "wave": 4,
+          "count": 10
+        }
+      ],
+      "total_count": 17,
+      "fixed": true
+    },
+    "CW-03n:Benefits exists": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 3
+        }
+      ],
+      "total_count": 3,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-07:Employee count >= 10": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 3
+        },
+        {
+          "wave": 5,
+          "count": 1
+        }
+      ],
+      "total_count": 4,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-15:Cover/Summary sheet": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 3
+        }
+      ],
+      "total_count": 3,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-10:IT0210 >= 2 rows/employee": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 2
+        },
+        {
+          "wave": 2,
+          "count": 3
+        },
+        {
+          "wave": 3,
+          "count": 7
+        },
+        {
+          "wave": 4,
+          "count": 3
+        },
+        {
+          "wave": 5,
+          "count": 1
+        },
+        {
+          "wave": 6,
+          "count": 7
+        }
+      ],
+      "total_count": 23,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03f:Work Schedule exists": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 4
+        },
+        {
+          "wave": 4,
+          "count": 10
+        }
+      ],
+      "total_count": 14,
+      "fixed": true
+    },
+    "CW-03h:Processing/Eval Classes exists": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 4
+        },
+        {
+          "wave": 4,
+          "count": 10
+        }
+      ],
+      "total_count": 14,
+      "fixed": true
+    },
+    "CW-03i:WT Permissibility exists": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 4
+        },
+        {
+          "wave": 4,
+          "count": 10
+        }
+      ],
+      "total_count": 14,
+      "fixed": true
+    },
+    "CW-03m:House Bank exists": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 4
+        },
+        {
+          "wave": 4,
+          "count": 10
+        }
+      ],
+      "total_count": 14,
+      "fixed": true
+    },
+    "MF-03:Core infotypes present": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 4
+        },
+        {
+          "wave": 2,
+          "count": 6
+        },
+        {
+          "wave": 3,
+          "count": 6
+        },
+        {
+          "wave": 4,
+          "count": 10
+        }
+      ],
+      "total_count": 26,
+      "fixed": true
+    },
+    "MF-19:IT0003 Payroll Status exists": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 4
+        }
+      ],
+      "total_count": 4,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-02:Sheet count >= 15": {
+      "first_seen_wave": 1,
+      "occurrences": [
+        {
+          "wave": 1,
+          "count": 2
+        },
+        {
+          "wave": 4,
+          "count": 3
+        }
+      ],
+      "total_count": 5,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-04:All PSAs in Enterprise": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 6
+        },
+        {
+          "wave": 3,
+          "count": 3
+        },
+        {
+          "wave": 6,
+          "count": 5
+        }
+      ],
+      "total_count": 14,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-06:SAP field names present": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 6
+        }
+      ],
+      "total_count": 6,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-10:Tax rates populated": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 3
+        },
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 6,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-08:No bad geocodes in TXJCD": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 6
+        }
+      ],
+      "total_count": 6,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-09:Federal geocode 00-000-0000": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 6
+        },
+        {
+          "wave": 3,
+          "count": 3
+        },
+        {
+          "wave": 6,
+          "count": 7
+        }
+      ],
+      "total_count": 16,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-11:IT0014 sufficient deductions": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 6
+        },
+        {
+          "wave": 3,
+          "count": 3
+        },
+        {
+          "wave": 5,
+          "count": 1
+        },
+        {
+          "wave": 6,
+          "count": 7
+        }
+      ],
+      "total_count": 17,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-18:All PAs in IT0001": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 3
+        },
+        {
+          "wave": 3,
+          "count": 10
+        },
+        {
+          "wave": 4,
+          "count": 10
+        },
+        {
+          "wave": 6,
+          "count": 8
+        }
+      ],
+      "total_count": 31,
+      "fixed": true
+    },
+    "MF-20:IT0041 Date Specs >= 2/employee": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 6
+        },
+        {
+          "wave": 3,
+          "count": 7
+        },
+        {
+          "wave": 5,
+          "count": 1
+        },
+        {
+          "wave": 6,
+          "count": 7
+        }
+      ],
+      "total_count": 21,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03a:Enterprise Structure populated": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 3
+        },
+        {
+          "wave": 4,
+          "count": 8
+        },
+        {
+          "wave": 5,
+          "count": 4
+        }
+      ],
+      "total_count": 15,
+      "fixed": true
+    },
+    "MF-06c:IT2006 Absence Quotas": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 3
+        },
+        {
+          "wave": 3,
+          "count": 3
+        }
+      ],
+      "total_count": 6,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-13:All states represented": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 2
+        },
+        {
+          "wave": 3,
+          "count": 3
+        },
+        {
+          "wave": 6,
+          "count": 2
+        }
+      ],
+      "total_count": 7,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03b:PSA Groupings populated": {
+      "first_seen_wave": 2,
+      "occurrences": [
+        {
+          "wave": 2,
+          "count": 1
+        },
+        {
+          "wave": 3,
+          "count": 2
+        },
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 6,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-07:Union config present": {
+      "first_seen_wave": 3,
+      "occurrences": [
+        {
+          "wave": 3,
+          "count": 4
+        },
+        {
+          "wave": 5,
+          "count": 2
+        }
+      ],
+      "total_count": 6,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03d:Payroll Areas exists": {
+      "first_seen_wave": 3,
+      "occurrences": [
+        {
+          "wave": 3,
+          "count": 6
+        },
+        {
+          "wave": 4,
+          "count": 4
+        }
+      ],
+      "total_count": 10,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03h:Processing/Eval Classes populated": {
+      "first_seen_wave": 3,
+      "occurrences": [
+        {
+          "wave": 3,
+          "count": 2
+        },
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 5,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03b:PSA Groupings exists": {
+      "first_seen_wave": 4,
+      "occurrences": [
+        {
+          "wave": 4,
+          "count": 10
+        }
+      ],
+      "total_count": 10,
+      "fixed": true
+    },
+    "CW-03c:Feature Config exists": {
+      "first_seen_wave": 4,
+      "occurrences": [
+        {
+          "wave": 4,
+          "count": 10
+        }
+      ],
+      "total_count": 10,
+      "fixed": true
+    },
+    "CW-03e:Payroll Calendar exists": {
+      "first_seen_wave": 4,
+      "occurrences": [
+        {
+          "wave": 4,
+          "count": 7
+        }
+      ],
+      "total_count": 7,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-08:No empty data tabs": {
+      "first_seen_wave": 4,
+      "occurrences": [
+        {
+          "wave": 4,
+          "count": 6
+        }
+      ],
+      "total_count": 6,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-23:IT0007 ZTEFN=9 (if time_approach!='full')": {
+      "first_seen_wave": 4,
+      "occurrences": [
+        {
+          "wave": 4,
+          "count": 3
+        },
+        {
+          "wave": 5,
+          "count": 5
+        }
+      ],
+      "total_count": 8,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03j:Tax Authorities populated": {
+      "first_seen_wave": 4,
+      "occurrences": [
+        {
+          "wave": 4,
+          "count": 3
+        }
+      ],
+      "total_count": 3,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-04:Tax infotypes present": {
+      "first_seen_wave": 4,
+      "occurrences": [
+        {
+          "wave": 4,
+          "count": 3
+        }
+      ],
+      "total_count": 3,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03c:Feature Config populated": {
+      "first_seen_wave": 5,
+      "occurrences": [
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 3,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03f:Work Schedule populated": {
+      "first_seen_wave": 5,
+      "occurrences": [
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 3,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03i:WT Permissibility populated": {
+      "first_seen_wave": 5,
+      "occurrences": [
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 3,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03k:Absence/Quota populated": {
+      "first_seen_wave": 5,
+      "occurrences": [
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 3,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "CW-03l:Symbolic Accounts populated": {
+      "first_seen_wave": 5,
+      "occurrences": [
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 3,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    },
+    "MF-21:IT0105 Communication >= 1/employee": {
+      "first_seen_wave": 5,
+      "occurrences": [
+        {
+          "wave": 5,
+          "count": 3
+        }
+      ],
+      "total_count": 3,
+      "fixed": true,
+      "fix_note": "Wave 5 mega patch"
+    }
+  },
+  "spec_patches": [
+    {
+      "timestamp": "2026-02-22T02:00:00",
+      "description": "Wave 1 spec patch: Added CRITICAL GENERATION REQUIREMENTS sections to both config workbook and migration file specs. Explicit min row counts, mandatory GL account placeholders, mandatory benefits IT sheets, mandatory Data Quality Review sheet, mandatory Cover sheet, explicit wage type catalog minimums with example WT codes.",
+      "errors_addressed": [
+        "CW-03g:Wage Type Catalog populated",
+        "CW-05:Wage type completeness",
+        "CW-09:GL accounts (HKONT) not blank",
+        "MF-05:Benefits infotypes",
+        "MF-14:Data Quality Review sheet",
+        "CW-02:Sheet count >= 15",
+        "CW-03k:Absence/Quota exists",
+        "MF-06a:IT0194 Garnishment",
+        "CW-03f:Work Schedule exists",
+        "CW-03h:Processing/Eval Classes exists",
+        "CW-03i:WT Permissibility exists",
+        "CW-03m:House Bank exists",
+        "MF-19:IT0003 Payroll Status exists",
+        "MF-03:Core infotypes present",
+        "MF-07:Employee count >= 10",
+        "MF-15:Cover/Summary sheet"
+      ]
+    },
+    {
+      "timestamp": "2026-02-22T03:00:00",
+      "description": "Wave 3 spec patch: Added explicit requirements for PA coverage in IT0001, IT0210 2-row minimum, IT0041 2-row minimum, Federal geocode 00-000-0000 mandatory, GL account reinforcement.",
+      "errors_addressed": [
+        "MF-18:All PAs in IT0001",
+        "MF-20:IT0041 Date Specs >= 2/employee",
+        "MF-10:IT0210 >= 2 rows/employee",
+        "MF-09:Federal geocode 00-000-0000",
+        "MF-11:IT0014 sufficient deductions",
+        "CW-09:GL accounts (HKONT) not blank"
+      ]
+    },
+    {
+      "timestamp": "2026-02-22T01:58:31.766966",
+      "description": "Wave 4 patch: Added explicit ALL-TABS-REQUIRED table to config spec, ALL-CORE-INFOTYPES-REQUIRED list to migration spec. Approach controls DEPTH not PRESENCE.",
+      "errors_addressed": [
+        "CW-03b:PSA Groupings exists",
+        "CW-03c:Feature Config exists",
+        "CW-03f:Work Schedule exists",
+        "CW-03h:Processing/Eval Classes exists",
+        "CW-03i:WT Permissibility exists",
+        "CW-03k:Absence/Quota exists",
+        "CW-03m:House Bank exists",
+        "CW-03a:Enterprise Structure populated",
+        "MF-03:Core infotypes present",
+        "MF-18:All PAs in IT0001"
+      ]
+    },
+    {
+      "after_wave": 5,
+      "description": "Wave 5 mega patch: Added 18-item config workbook self-check checklist + 22-item migration file self-check checklist. Complete BSI geocode reference table (24 states). Tax rate columns mandatory. Union config enforcement. ZERO blank HKONT enforcement. Geocode format enforcement (XX-XXX-XXXX only). Conditional sheet triggers explicit. Pre-save validation gates.",
+      "errors_addressed": 41
+    }
+  ],
+  "score_history": [
+    {
+      "wave": 1,
+      "avg": 73.6,
+      "perfect": 0,
+      "count": 10
+    },
+    {
+      "wave": 2,
+      "avg": 82.5,
+      "perfect": 0,
+      "count": 10
+    },
+    {
+      "wave": 3,
+      "avg": 85.2,
+      "perfect": 0,
+      "count": 10
+    },
+    {
+      "wave": 4,
+      "avg": 67.7,
+      "perfect": 0,
+      "count": 10
+    },
+    {
+      "wave": 5,
+      "avg": 83.4,
+      "perfect": 0,
+      "count": 10
+    },
+    {
+      "wave": 6,
+      "avg": 87.0,
+      "perfect": 0,
+      "count": 10
+    },
+    {
+      "wave": 7,
+      "avg": 100.0,
+      "perfect": 10,
+      "count": 10
+    },
+    {
+      "wave": 8,
+      "avg": 100.0,
+      "perfect": 10,
+      "count": 10
+    },
+    {
+      "wave": 9,
+      "avg": 100.0,
+      "perfect": 10,
+      "count": 10
+    },
+    {
+      "wave": 10,
+      "avg": 100.0,
+      "perfect": 10,
+      "count": 10
+    },
+    {
+      "wave": 11,
+      "avg": 100.0,
+      "perfect": 10,
+      "count": 10
+    }
+  ]
+}
