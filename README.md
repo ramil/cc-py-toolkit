@@ -19,38 +19,6 @@ Step 6: /payroll-migration-file config.xlsx    → Generate migration file (+ AI
 
 Or run steps 3-6 in one shot: `/payroll-implement questionnaire.docx`
 
-## What's New in v2.0.0
-
-### Deterministic Generation Library (`gen_helpers.py`)
-A 1,183-line Python library that produces 100%-validated config workbooks and migration files:
-- `generate_config_workbook(company, path)` — 21 tabs, all GL accounts populated, SAP field names, tax rates
-- `generate_migration_file(company, path)` — 18-23 sheets, multi-row infotypes, BSI geocodes, approach-aware
-
-### Iterative Testing Framework
-- **50-company test harness** across 20 industries with 7 approach combinations
-- **v3 validator** with 44+ automated checks (config workbook + migration file)
-- **Wave runner** orchestration for batch generation and validation
-- **Error registry** tracking 51 unique error types across 11 waves of testing
-
-### Spec Improvements (4 Patches Applied)
-- 18-item config workbook self-check checklist
-- 22-item migration file self-check checklist
-- Complete BSI geocode reference table (24 US states)
-- ALL-TABS-REQUIRED matrix preventing approach-based tab skipping
-- Explicit multi-row minimums for IT0014 (3/ee), IT0041 (2/ee), IT0210 (2/ee)
-
-### Score Progression
-```
-Wave 1:  73.6%  → Baseline
-Wave 2:  82.5%  → +8.9%  (Spec Patch #1)
-Wave 3:  85.2%  → +2.7%  (Spec Patch #2)
-Wave 4:  67.7%  → -17.5% (Approach regression)
-Wave 5:  83.4%  → +15.7% (Spec Patch #3)
-Wave 6:  87.0%  → +3.6%  (Mega Patch #4)
-Wave 7:  100.0% → +13.0% (gen_helpers.py)
-Wave 8-11: 100.0% → 50/50 perfect
-```
-
 ## Deliverables
 
 1. **Payroll Discovery Questionnaire** (.docx) — Blank 15-section template with AI-generated industry profiling, state-specific compliance alerts, and industry-tailored supplemental questions.
